@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    display: Flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 5rem;
+}
+.Header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 2rem;
+
+}
+main{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.Date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #439DEFDE;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 40px;
+}
+/* .day{
+    
+    text-justify: center;
+    
+} */
+.info_container{
+    background-color: #333333;
+    color: #f4f4f4;
+    width:526px ;
+    height: 434px;
+    border-radius: 12px;
+    font-size: 32px;
+    line-height: 68px;
+    font-weight: 400;
+    font-family: "inter";
+
+}
+.info_container .slackUserName{
+    padding-left:58px ;
+    padding-top: 75px;
+}
+.info_container .myTrack{
+    padding-left:58px ;
+    padding-top: 15px;
+}
+
+img{
+    border-radius: 50%;
+    width: 606px;
+    height: 606px;
+    object-fit: cover;
+}
+.utc{
+    background-color: #439DEFDE;
+    width: fit-content;
+    height: auto;
+    margin-top: 3.5rem;
+    border-radius: 16px;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 12px 42px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #333333;
+    color: #f4f4f4 ;
+    height: 100px;
+    margin-top: 5rem;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
